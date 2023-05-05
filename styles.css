@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+li, a, button {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+/*리스트에 점 제거*/
+.navigation {
+    list-style: none;
+}
+/*li 요소 가로로 배치 및 각 아이템별 간격조절(padding)*/
+.navigation li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigation li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navigation li a:hover {
+    color: #4968FF;
+}
+
+.bnt_login button{
+    margin-left: 30px;
+    padding: 9px 25px;
+    background-color: #222222;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+}
+
+.bnt_login button:hover{
+    background-color: #4968FF;
+    color: #edf0f1;
+}
+
